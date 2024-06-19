@@ -21,4 +21,5 @@ fun main() {
     else {
         println("$third is the smallest number")
     }
+
 }

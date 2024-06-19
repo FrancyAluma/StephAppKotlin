@@ -4,7 +4,7 @@ fun main() {
 
     val y = Scanner(System.`in`)
 
-    print("Enter a number: ")
+    println("Enter a number: ")
     val num = y.nextInt()
 
     if (num % 2 == 0)

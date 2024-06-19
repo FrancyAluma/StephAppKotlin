@@ -9,7 +9,7 @@ open class Animals{
 
 }
 
-//Child class/sub class/ Derived class
+//Child class/subclass/ Derived class
 
 open class Duck: Animals (){
     var isMamma =true
@@ -32,7 +32,13 @@ class Fish:Duck() {
 fun main() {
     var a = Animals()
 
+    println(a.age)
+
     var d = Duck()
 d.move("swimming")
+
+    println(d.isMamma)
+
     var f = Fish()
+    f.eat()
 }

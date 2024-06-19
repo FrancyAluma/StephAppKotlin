@@ -25,6 +25,16 @@ fun main() {
     println(ob)
 
 
+    var res = false
+    var pel = res.toString()
+    println(pel)
+
+    // Tu ne peux pas convertir un String en Chararter et Vice versa
+    var kw = 'k'
+    var kb = kw.toString()
+    println(kb)
+
+
 
 
 }

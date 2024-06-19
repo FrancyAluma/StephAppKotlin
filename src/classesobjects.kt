@@ -7,17 +7,19 @@ class Person {
 
     // Behaviour / Methods /Functions
     fun walk(){
-        println("Person is walking")
+        println("$name is walking")
     }
 
 }
 
+
 fun main() {
 
-    var doctor = Person()
+    val doctor = Person()
     println(doctor.age)
     println(doctor.name)
-
+    println(doctor.location)
     doctor.walk()
+
 
 }

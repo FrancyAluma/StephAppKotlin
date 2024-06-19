@@ -12,5 +12,9 @@ fun main() {
     println(greeting.indexOf("world"))
     println(firstname.toUpperCase())
 
+    println(lastname.indexOf("o"))
+
     println("Hello there.My name is $firstname")// string interpolation
+
+
 }

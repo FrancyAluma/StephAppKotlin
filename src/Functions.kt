@@ -18,6 +18,10 @@ fun main() {
     name()
     sum()
     details("George", 20)
+    famille("Pauline", 55.0)
+    ver()
+    famille("Bosco",65.0)
+
 }
 
 // User defined function
@@ -25,10 +29,14 @@ fun main() {
 fun name() {
     println("Francy")
 }
+
 fun sum() {
     var number1 = 45
     var number2 = 60
     println(number1+number2)
+}
+fun ver () {
+    println("Je vais bien ")
 }
 
 // Parameters  and arguments
@@ -36,7 +44,10 @@ fun sum() {
 fun details(name:String ,age:Int) {
     println("$name is $age years old")
 
+}
 
+fun famille ( kombo:String , mbula:Double ) {
 
+    println("$kombo aza na $mbula ans")
 }
 
