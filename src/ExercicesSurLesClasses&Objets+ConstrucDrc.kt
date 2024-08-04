@@ -20,7 +20,7 @@ class Quotient (num:Double , den : Double ) {
     constructor ( ratioDe:Double ) : this (ratioDe,100.0)
          // on a aussi donner aux parametres "num et den", la valeur "ratioDe" et "100.0"
 
-   private fun calculer () : Double { // on l'a rendue private tout simplement pck elle ne sera utilisee que par la fonction afficher
+   private fun calculer () : Double { // on l'a rendue private tout simplement pck elle ne sera utilisee que par cette classe et ses elements
         return(numerateur/denominateur)
     }
     fun afficher () {
